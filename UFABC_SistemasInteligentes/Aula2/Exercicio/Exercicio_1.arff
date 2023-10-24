@@ -1,0 +1,18 @@
+@relation PincelQuadroBranco
+
+@attribute PincelAzul {y, n}
+@attribute PincelVermelho {y, n}
+@attribute PincelPreto {y, n}
+@attribute PincelVerde {y, n}
+@attribute RecargaAzul {y, n}
+@attribute RecargaVermelho {y, n}
+@attribute RecargaPreto {y, n}
+@attribute RecargaVerde {y, n}
+@attribute PontaReposicao {y, n}
+
+@data
+y,y,n,y,n,n,n,y
+n,n,n,n,n,y,y,y
+y,y,y,y,n,n,n,n
+y,n,n,n,y,y,y,n
+y,y,y,y,n,n,n,y

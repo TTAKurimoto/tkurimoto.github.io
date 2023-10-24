@@ -1,0 +1,17 @@
+@relation Pincel Quadro Branco
+
+@attribute Pincel Board Master V Azul {y, n}
+@attribute Pincel Board Master V Vermelho {y, n}
+@attribute Pincel Board Master V Preto {y, n}
+@attribute Pincel Board Master V Verde {y, n}
+@attribute Recarga Board Mastes V Azul {y, n}
+@attribute Recarga Board Mastes V Vermelho {y, n}
+@attribute Recarga Board Mastes V Preto {y, n}
+@attribute Recarga Board Mastes V Verde {y, n}
+
+@data
+y,y,n,y,n,n,n
+n,n,n,n,n,y,y
+y,y,y,y,n,n,n
+y,n,n,n,y,y,y
+y,y,y,y,n,n,n

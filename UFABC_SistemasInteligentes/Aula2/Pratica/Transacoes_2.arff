@@ -1,0 +1,16 @@
+@relation Transacoes_2
+
+@attribute A {y,n}
+@attribute B {y,n}
+@attribute C {y,n}
+@attribute D {y,n}
+@attribute E {y,n}
+@attribute F {y,n}
+@attribute G {y,n}
+
+@data
+y,y,?,y,?,?,?
+?,?,?,?,?,y,y
+y,y,y,y,?,?,?
+y,?,?,?,y,y,y
+y,y,y,y,?,?,?
