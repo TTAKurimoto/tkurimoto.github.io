@@ -1,0 +1,27 @@
+@relation Tabela_do_Tempo
+
+@attribute Dia {Ensolarado,Nublado,Chuvoso}
+@attribute Temperatura {Elevada,Amena,Baixa}
+@attribute Umidade {Alta,Normal}
+@attribute Vento {Falso,Verdadeiro}
+@attribute Partida {Não,Sim}
+
+@data
+Ensolarado,Elevada,Alta,Falso,Não
+Ensolarado,Elevada,Alta,Verdadeiro,Não
+Ensolarado,Amena,Alta,Falso,Não
+Nublado,Elevada,Alta,Falso,Sim
+Nublado,Amena,Alta,Verdadeiro,Sim
+Chuvoso,Amena,Alta,Falso,Sim
+Chuvoso,Amena,Alta,Verdadeiro,Não
+Ensolarado,Baixa,Normal,Falso,Sim
+Ensolarado,Amena,Normal,Verdadeiro,Sim
+Nublado,Baixa,Normal,Verdadeiro,Sim
+Nublado,Elevada,Normal,Falso,Sim
+Chuvoso,Baixa,Normal,Falso,Sim
+Chuvoso,Baixa,Normal,Verdadeiro,Não
+Chuvoso,Amena,Normal,Falso,Sim
+Ensolarado,Amena,Normal,Falso,????
+Ensolarado,Baixa,Alta,Verdadeiro,????
+Nublado,Baixa,Alta,Verdadeiro,????
+Chuvoso,Elevada,Normal,Falso,????
